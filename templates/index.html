@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Machine learning model</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      * {
+        background-color: rgb(185, 185, 219);
+      }
+      h1 {
+        text-align: center;
+        color: black;
+        font-size: 50px;
+        background-color: rgb(183 186 207);
+        margin: -11px;
+        padding: 2%;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+        gap: 10px; /* Adjust gap between divs */
+        justify-content: space-between;
+      }
+      div.col-1 {
+        padding-left: 474px;
+      }
+      div.col-12 {
+        margin: 10px;
+        padding-left: 474px;
+
+      }
+       
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Diabetes Predictor</h1>
+    </header>
+    <br>
+
+    <div class="container">
+      <div class="col-1">
+        <div class="col">
+          <label for="houseform">Pragnancies<br /></label>
+          <input type="number" name="Pragnancy" required="required" /><br />
+        </div>
+
+        <div class="col">
+          <label for="houseform">Glucose<br /></label>
+          <input type="number" name="Glucose" required="required" /><br />
+        </div>
+
+        <div class="col">
+          <label for="houseform">Diastolic<br /></label>
+          <input type="number" name="Diastolic" required="required" /><br />
+        </div>
+
+        <div class="col">
+          <label for="houseform">Triceps<br /></label>
+          <input type="number" name="Triceps" required="required" /><br />
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="col">
+          <label for="houseform">Insulin<br /></label>
+          <input type="number" name="Insulin" required="required" /><br />
+        </div>
+
+        <div class="col">
+          <label for="houseform">BMI<br /></label>
+          <input type="number" name="BMI" required="required" /><br />
+        </div>
+
+        <div class="col">
+          <label for="houseform">DPF<br /></label>
+          <input type="number" name="DPF" required="required" /><br />
+        </div>
+
+        <div class="col">
+          <label for="houseform">Age<br /></label>
+          <input type="number" name="Age" required="required" /><br />
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="button" class="btn btn-primary" style="background-color: rgb(28, 28, 226);
+      color: white;
+      border-radius: 8%;">Predict</button>
+    </div>
+  </body>
+</html>
