@@ -1,9 +1,9 @@
 # Diabetes-Prediction-Project
 ### Software and Tools required
 1. [Github Account](https://github.com)
-2. [HerokuAccount](https://heroku.com)
-3. [VS code IDE](https://code.visualstudio.com/)
-4. [GITCLI](https://git-scm.com/downloads)
+2. [VS code IDE](https://code.visualstudio.com/)
+3. [GITCLI](https://git-scm.com/downloads)
+4. [Streamlit](https://streamlit.io/)
 
 create a new environment  
 1. to install virtual environment 
